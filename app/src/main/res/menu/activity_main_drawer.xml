@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_item1"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Home">
+        </item>
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Photos">
+        </item>
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Movie">
+        </item>
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Notification">
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/group_menu">
+        <item
+            android:id="@+id/nav_item5"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Settings">
+        </item>
+        <item
+            android:id="@+id/nav_item6"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/about_us">
+        </item>
+    </group>
+
+    <item android:title="TITLE 1">
+        <menu>
+            <item
+                android:id="@+id/nav_item7"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="@string/privacy_policy">
+            </item>
+            <item
+                android:id="@+id/nav_item8"
+                android:icon="@drawable/ic_launcher_background"
+                android:title="Item 8">
+            </item>
+        </menu>
+
+    </item>
+</menu>
